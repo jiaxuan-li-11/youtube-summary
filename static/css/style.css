@@ -1,0 +1,214 @@
+body {
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+}
+
+header {
+    background-color: #f8f8f8;
+    padding: 10px 0;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+    margin-bottom: 100px;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center; 
+}
+
+.logo {
+    height: 50px; 
+    margin-right: 10px; 
+}
+
+.logo-text {
+    font-size: 20px; 
+    font-weight: bold; 
+}
+
+
+.navigation ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    gap: 50px;
+}
+
+.navigation a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+}
+
+.actions {
+    display: flex;
+    gap: 10px;
+}
+
+.btn#login {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    color: white;
+    background-color: rgb(250, 172, 105);
+}
+
+/* .btn#login {
+    background-color: transparent;
+    color: #007bff;
+    border: 1px solid #007bff;
+} */
+
+.btn#signup {
+    background: transparent; 
+    border: none; 
+    outline: none; 
+    color: #333;
+    cursor: pointer;
+}
+
+#video-input-form {
+    margin-top: 100px;
+    margin-bottom: 70px;
+    max-width: 60%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+}
+
+/* Style the input field */
+#video-id {
+    margin-right: auto;
+    display: flex;
+    flex-grow: 1;
+    padding: 10px 15px;
+    border: 2px solid #FFA500;
+    border-right: 2px; 
+    border-radius: 25px 0 0 25px; 
+    outline: none; 
+}
+
+
+/* Style the button */
+#submit-button {
+    padding: 10px 20px;
+    background-color: #FFA500; 
+    border: 2px solid #FFA500;
+    border-radius: 0 25px 25px 0; 
+    cursor: pointer;
+    outline: none; 
+}
+
+/* Additional hover effect for the button */
+#submit-button:hover {
+    background-color: #e69500; 
+}
+
+/* Ensures the button text doesn't get selected */
+#submit-button {
+    user-select: none;
+}
+
+
+.column {
+    float: left;
+    width: 50%;
+}
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+#summary-result {
+    margin-top: 70px;
+    margin-bottom: 50px;
+    margin-left: 100px;
+    margin-right: 150px;
+    font-family: Calibri;
+    /* width: 560px;
+    height: 800px;b
+    text-align: left;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1); */
+}
+
+
+
+#video-placeholder {
+    margin-top: 70px;
+    margin-bottom: 50px;
+    margin-left: 100px;
+    width: 650px;
+    height: 420px;
+    line-height: 420px; 
+    text-align: center;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+#youtube-player {
+    margin-top: 70px;
+    margin-bottom: 50px;
+    margin-left: 100px;
+    width: 650px;
+    height: 420px;
+    line-height: 315px;
+    text-align: center;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+#summary-req {
+    margin-top: 50px;
+    margin-left: 100px;
+    margin-bottom: 30px;
+    max-width: 30%;
+    display: flex;
+    padding: 10px 100px;
+    border: 2px solid #b5a8f0;
+    border-radius: 25px; 
+}
+
+#generate-summary {
+    padding: 10px 20px;
+    margin-left: 100px;
+    background-color: #f2b645;
+    border: 2px #f2b645;
+    border-radius: 25px; 
+    cursor: pointer;
+    outline: none; 
+}
+
+#loading-icon {
+    display: none; 
+    max-width: 20%; 
+    height: 10px;
+    position: absolute; 
+}
+
+.summary-item {
+    margin-bottom: 20px;
+}
+
+.timestamp {
+    color: #00f;
+    cursor: pointer;
+}
+
+.summary-text {
+    margin: 0;
+}
